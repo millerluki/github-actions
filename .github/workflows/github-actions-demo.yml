@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@6.0.1
+        uses: actions/checkout@v6.0.1
       - name: Trigger
         run: |
           echo "Event was triggered by ${{ github.event_name }}"
